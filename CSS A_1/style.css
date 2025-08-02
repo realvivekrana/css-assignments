@@ -1,0 +1,47 @@
+body {
+    font-family: arial,sans-serif;
+    margin: 30px;
+    background-color: white;
+    color: brown;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+h2 {
+    color: green;
+    font-style: italic;
+}
+
+ol,ul {
+    font-size: 18px;
+}
+
+mark {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+}
+
+del {
+    color: black;
+    text-decoration: line-through;
+}
+
+button {
+    margin-top: 20px;
+    background-color: yellow;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.spaced {
+    letter-spacing: 10px;
+}

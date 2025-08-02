@@ -1,0 +1,42 @@
+body{
+    background-color: yellow;
+    padding-left: 400px;
+    color: black;
+    justify-content: center;
+}
+
+h1{
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px;
+    transition: 3s;
+}
+
+#box1:hover{
+    transition: linear;
+    width: 250px;
+    transition: 3s;
+}
+#box2:hover{
+    height: 250px;
+    width: 250px;
+    transition: width 2s, height 4s;
+}
+#box3:hover{
+    transition: linear;
+    width: 250px;
+    transition: 3s;
+}
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}

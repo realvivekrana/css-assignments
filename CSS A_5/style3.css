@@ -1,0 +1,134 @@
+body{
+    background:linear-gradient(to right, sandybrown,white, green);
+    padding: 2px;
+    height: 600px;
+    width: auto;
+}
+.body{
+    background-image: url(./sky.jpg);
+    width: 100%;
+    height: 445px;
+}
+.p{
+    display: flex;
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: center;
+}
+#p1{
+    color: black;
+    background-color: sandybrown;
+    margin-right: 5px;
+}
+#p2{
+    color: black;
+    background-color: white;
+    margin-right: 5px;
+}
+#p3{
+    color: black;
+    background-color: green;
+    margin-right: 5px;
+}
+.main2{
+    background-image: url(./road.jpg);
+    height: 210px;
+    width: 500%;
+    position: relative;
+    background-repeat: repeat;
+    background-size: cover;
+    animation-name: road;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 90px;
+}
+@keyframes road{
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+.city{
+    height: 265px;  
+    background-image: url(./city.png);
+    margin-bottom: 20px;
+    width: 100%; 
+    position: absolute;
+} 
+.car{
+    height: 145px;
+    width: 345px;
+    margin-left: 400px;
+    position: relative;
+    margin-bottom: -50px;
+    z-index: 1;
+}   
+.cars{
+    position: relative;
+    bottom: -110px;
+}
+.flag{
+    height: 60px;
+    width: 70px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -238px;
+    margin-left: 580px; 
+
+}
+.wheel-1{
+    height: 57px;
+    width: 57px;
+    margin-left: 150px;
+    animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    left: 283px;
+    top: 135px;
+    z-index: 1;
+}
+
+@keyframes wheel{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wheel-2{
+    height: 57px;
+    width: 57px;
+    margin-left: 150px;
+    animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    left: 285px;
+    top: 135px;
+    z-index: 1;
+}
+.sun{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 1050px;
+    animation-name: sun;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes sun{
+    0%{
+        right: 0%;
+    }
+    100%{
+        left: -100%;
+    }
+}
